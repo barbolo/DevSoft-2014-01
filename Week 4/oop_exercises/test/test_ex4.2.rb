@@ -22,7 +22,7 @@ origin_account.deposit(100)
 origin_account.transfer(destination_account, 10)
 
 puts "Test case 1)"
-if origin_account.balance == 81.8 && destination_account.balance == 10
+if origin_account.balance == 82 && destination_account.balance == 10
   puts "\tOK"
 else
   @grade -= 1
@@ -31,10 +31,10 @@ else
 end
 
 # Calls the method that is being tested.
-origin_account.transfer(destination_account, 81.8)
+origin_account.transfer(destination_account, 82)
 
 puts "Test case 2)"
-if origin_account.balance == 81.8 && destination_account.balance == 10
+if origin_account.balance == 82 && destination_account.balance == 10
   puts "\tOK"
 else
   @grade -= 1
@@ -43,10 +43,10 @@ else
 end
 
 # Calls the method that is being tested.
-origin_account.transfer(destination_account, (81.8 - 8.2))
+origin_account.transfer(destination_account, 74)
 
 puts "Test case 3)"
-if origin_account.balance == 0 && destination_account.balance == (10 + (81.8 - 8.2))
+if origin_account.balance == 0 && destination_account.balance == 84
   puts "\tOK"
 else
   @grade -= 1

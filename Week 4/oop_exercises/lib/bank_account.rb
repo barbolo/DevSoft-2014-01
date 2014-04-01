@@ -1,6 +1,6 @@
 class BankAccount
 
-  attr_reader :balance
+  attr_reader :balance, :monthly_fee
 
   CREDIT_LINE = 500
   MONTHLY_FEE = 20
