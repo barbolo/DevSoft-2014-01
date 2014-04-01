@@ -7,7 +7,7 @@ class CheckingAccount < BankAccount
     log_transaction('Deposit', amount)
   end
 
-  def withdrawal(amount)
+  def withdraw(amount)
     @balance -= amount
     log_transaction('Withdrawal', amount)
   end
