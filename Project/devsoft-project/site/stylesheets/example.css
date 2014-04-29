@@ -1,0 +1,32 @@
+header {
+  font-family: 'Loved by the King', 'cursive';
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  /* Default color format: RGB in hexa (RRGGBB); */
+  color: #6176AC;
+  font-size: 60px;
+}
+
+header h2 {
+  /* The RGBA format allows us to specify a transparency level */
+  color: rgba(35, 69, 103, 0.4);
+  font-size: 40px;
+}
+
+#main-content {
+  text-align: center;
+}
+
+#main-content i {
+  color: #03A2B8;
+  font-size: 340px;
+}
+
+.welcome {
+  color: rgba(223, 32, 78, 1);
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 25px;
+}
